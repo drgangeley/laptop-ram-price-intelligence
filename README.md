@@ -2,7 +2,7 @@
 
 
 Welcome to the **Laptop & RAM Price Intelligence Data Warehouse** repository! 🚀  
-This project demonstrates a modern, end-to-end PostgreSQL data warehouse built using the **Medallion Architecture (Bronze → Silver → Gold)**, modeled after **Data With Baraa's** SQL Data Warehouse framework. It ingests raw product listings for laptops and RAM modules, cleans and standardizes specifications, and delivers an analytical star schema for pricing and hardware upgrade intelligence.
+This project demonstrates a modern, end-to-end PostgreSQL data warehouse built using the **Medallion Architecture (Bronze → Silver → Gold)**. It ingests raw product listings for laptops and RAM modules, cleans and standardizes specifications, and delivers an analytical star schema for pricing and hardware upgrade intelligence.
 
 ---
 
