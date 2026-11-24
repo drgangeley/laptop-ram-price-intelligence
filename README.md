@@ -106,7 +106,7 @@ laptop-ram-price-intelligence-dw/
 │   └── source/                  # Raw input datasets (laptop_ram_trend.csv, Ram_Prices.csv)
 ├── docs/
 │   ├── architecture/            # Draw.io data warehouse diagram
-│   └── SOURCE_ATTRIBUTION.md    # Source origin and provenance details
+│   └── buisness problem.md    # Source origin and provenance details
 ├── scripts/                     # SQL ETL, DDL, QA, analytics & Python profiling scripts
 └── README.md                    # Project overview and documentation
 ```
