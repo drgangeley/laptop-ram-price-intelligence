@@ -18,7 +18,7 @@ BEGIN
     RAISE NOTICE 'Loading Laptop Data';
     RAISE NOTICE '------------------------------------------------';
 
-    -- Load laptop listings
+    
     start_time := clock_timestamp();
     RAISE NOTICE '>> Truncating Table: bronze.laptop_listing_raw';
     TRUNCATE TABLE bronze.laptop_listing_raw;
@@ -37,14 +37,14 @@ BEGIN
     RAISE NOTICE 'Loading RAM Data';
     RAISE NOTICE '------------------------------------------------';
 
-    -- Load RAM module listings
+  
     start_time := clock_timestamp();
     RAISE NOTICE '>> Truncating Table: bronze.ram_listing_raw';
     TRUNCATE TABLE bronze.ram_listing_raw;
 
     RAISE NOTICE '>> Inserting Data Into: bronze.ram_listing_raw';
     COPY bronze.ram_listing_raw
-    FROM 'C:/Projects/Laptop_RAM_Price_Intelligence_Simple_SQL/data/source/Ram_Prices.csv'
+    FROM 'Your directory'
     WITH (FORMAT csv, HEADER true, DELIMITER ',', ENCODING 'UTF8');
 
     end_time := clock_timestamp();
